@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: foo
-        uses: LangBledsoe/2.2-Actions/852a9e8b8800e14a5fd277f83b2425f53ef2cc1e
+        uses: LangBledsoe/2.2-Actions@852a9e8b8800e14a5fd277f83b2425f53ef2cc1e
         with:
           who-to-greet: 'Lang'
       - run: echo random-number "$RANDOM_NUMBER"
